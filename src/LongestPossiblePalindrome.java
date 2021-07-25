@@ -35,7 +35,7 @@ public class LongestPossiblePalindrome {
         String palindrome = sb.toString();
         palindrome += mid + sb.reverse().toString();
         System.out.println("Longest possible palindrome is : " + palindrome);
-        System.out.println("Length og longest possible palindrome is : " + palindrome.length());
+        System.out.println("Length of longest possible palindrome is : " + palindrome.length());
     }
 
     public static void main(String[] args) {
